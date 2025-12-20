@@ -19,7 +19,7 @@ This is a simple Python number guessing game. The program randomly selects a num
 
 The following diagram visually represents the decision-making process used in the program:
 
-![Number Guessing Game Flowchart](NumberGuessingGameFlowchart.png)
+<img src="Images/NumberGuessingGameFlowchart.png" width = "700" >
 
 ## Requirements
 
