@@ -1,10 +1,3 @@
-# Guessing Game
-The program chooses a number between 1 and 100, and the user has to guess what the number is, with the program telling them if their guess is either less than or greater than the objective.
-
-Here’s the **same README**, now with **ASCII flowchart art** added. You can copy and paste this directly into GitHub.
-
----
-
 # Number Guessing Game (Python)
 
 ## Description
