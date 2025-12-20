@@ -58,7 +58,3 @@ You guessed my number! It only took you 3 tries.
 * User input
 * Random number generation
 * Flowchart-based algorithm visualization
-
-## Author
-
-Created as a beginner Python project to practice programming logic and control flow.
