@@ -1,60 +1,66 @@
-# Number Guessing Game (Python)
+# Olympics Emblem (Python Turtle)
 
 ## Description
 
-This is a simple Python number guessing game. The program randomly selects a number between **0 and 100**, and the player must guess the number. After each guess, the program tells the player whether their guess is **too high** or **too low** until the correct number is guessed. The game also tracks how many attempts the user makes.
+This Python program uses the built-in **`turtle`** graphics module to draw the **Olympic rings emblem**. The program animates the drawing process by creating five colored circles arranged in the classic Olympic layout. Each ring is drawn using loops and precise turtle movements.
+
+---
 
 ## How It Works
 
-1. A random number between 0 and 100 is generated.
-2. The user enters a guess.
-3. The program compares the guess to the target number:
+1. A Turtle graphics window titled **"Olympics Emblem"** is created.
+2. The turtle is hidden and set to maximum drawing speed.
+3. The turtle moves into position to begin drawing.
+4. The program draws the **top row of three circles**:
 
-   * If the guess is too high, the user is notified.
-   * If the guess is too low, the user is notified.
-4. The user keeps guessing until the correct number is entered.
-5. The program displays the total number of tries.
+   * Blue
+   * Black
+   * Red
+5. The turtle repositions itself downward.
+6. The program draws the **bottom row of two circles**:
 
-## Program Flowchart
+   * Orange
+   * Green
+7. Each circle is created using small forward movements and rotations to form a smooth loop.
 
-The following diagram visually represents the decision-making process used in the program:
+---
 
-<img src="Images/NumberGuessingGameFlowchart.png" width = "700" >
+## GIF of the Program
+
+The following GIF shows the turtle drawing the Olympic emblem step by step, transitioning from the top row of rings to the bottom row:
+
+<!-- Replace the filename with your actual GIF -->
+
+<img src="output.gif" width="700">
+
+---
 
 ## Requirements
 
 * Python 3.x
-* Uses Python’s built-in `random` module
+* Uses Python’s built-in `turtle` module
+
+---
 
 ## How to Run
 
 1. Ensure Python is installed.
-2. Save the code as `guessing_game.py`.
+2. Save the code as `olympics_emblem.py`.
 3. Open a terminal or command prompt.
 4. Run:
 
    ```bash
-   python guessing_game.py
+   python olympics_emblem.py
    ```
-5. Follow the prompts to play.
+5. A new window will open and display the animated drawing.
 
-## Example Output
-
-```
-I'm thinking of a number between 0 and 100
-Enter your guess of my number here: 45
-Sorry, 45 is less than my number.
-Enter your guess of my number here: 72
-Sorry, 72 is greater than my number.
-Enter your guess of my number here: 60
-You guessed my number! It only took you 3 tries.
-```
+---
 
 ## Concepts Used
 
-* Variables
-* While loops
-* Conditional statements (`if`, `elif`)
-* User input
-* Random number generation
-* Flowchart-based algorithm visualization
+* Turtle graphics
+* For loops
+* Conditional statements (`if`, `else`)
+* Coordinate movement and positioning
+* Color control
+* Pen size and animation speed
