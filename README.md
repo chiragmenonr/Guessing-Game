@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is a simple Python number guessing game. The program randomly selects a number between **0 and 100**, and the player must guess the number. After each guess, the program tells the player whether their guess is **too high** or **too low** until the correct number is guessed. The game also tracks how many attempts the user makes. 
+The program randomly selects a number between **0 and 100**, and the player must guess the number. After each guess, the program tells the player whether their guess is **too high** or **too low** until the correct number is guessed. The game also tracks how many attempts the user makes. 
 
 ---
 ## How It Works 
